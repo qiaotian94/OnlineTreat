@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_bottom_text_normal">#ff847d7b</color>
+    <color name="main_botton_text_select">#ff333333</color>
+    <color name="main_bottom_bg">#11000000</color>
+    <color name="essence_tab_bg">#12000000</color>
+    <color name="essence_tab_text_color_normal">#ff847d7b</color>
+    <color name="essence_tab_text_color_press">#FF4801</color>
+    <color name="colorBlue">#000fff</color>
+    <color name="colorSkyBlue">#00ffff</color>
+    <color name="colorGreen">#00f000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="chat_title_bg">#427BED</color>
+    <color name="google_red">#FFC93437</color>
+    <color name="google_blue">#FF375BF1</color>
+    <color name="google_yellow">#FFF7D23E</color>
+    <color name="google_green">#FF34A350</color>
+    <color name="A">#3aa4a4a2</color>
+    <color name="green">#C1FFC1</color>
+    <color name="Maingreen">#98FB98</color>
+    <color name="Gray">#B7B7B7</color>
+    <color name="Gray2">#595959</color>
+    <color name="Gray3">#4D4D4D</color>
+    <color name="Greencolor">#6dcead</color>
+</resources>

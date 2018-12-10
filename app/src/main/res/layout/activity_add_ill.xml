@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qiaotian.onlinetreatapp.record.AddIllActivity">
+<TextView
+    android:id="@+id/illtx1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="我的病症"
+    android:gravity="center"
+    android:layout_margin="70dp"
+    android:textSize="30dp"
+    />
+    <EditText
+    android:id="@+id/illedit1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/illtx1"
+    android:hint="账号"/>
+    <EditText
+        android:id="@+id/illedit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/illedit1"
+        android:hint="日期"/>
+    <EditText
+        android:id="@+id/illedit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/illedit2"
+        android:hint="病症"/>
+    <Button
+        android:id="@+id/illbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/illedit3"
+        android:layout_marginTop="50dp"
+        android:text="确认"
+        android:background="@drawable/medbtn"
+        />
+</RelativeLayout>

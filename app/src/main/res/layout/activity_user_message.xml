@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<TextView
+   android:id="@+id/toptext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:paddingTop="30dp"
+    android:text="我的信息"
+    android:gravity="center"
+
+    />
+
+    <TextView
+      android:id="@+id/idtx"
+        android:layout_below="@id/toptext"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="80dp"
+
+        android:text="账号"
+        />
+    <TextView
+        android:id="@+id/usertx1"
+        android:layout_below="@id/toptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:layout_toRightOf="@id/idtx"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/nametx"
+        android:layout_below="@id/idtx"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="80dp"
+
+        android:text="昵称"
+        />
+    <TextView
+        android:id="@+id/usertx2"
+        android:layout_below="@id/usertx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:layout_toRightOf="@id/nametx"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/sextx"
+        android:layout_below="@id/nametx"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:text="性别"
+        android:layout_marginLeft="80dp"
+        />
+    <TextView
+        android:id="@+id/usertx3"
+        android:layout_below="@id/usertx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:layout_toRightOf="@id/sextx"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/agetx"
+        android:layout_below="@id/sextx"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:text="年龄"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/usertx4"
+        android:layout_below="@id/usertx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:layout_toRightOf="@id/agetx"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/emailtx"
+        android:layout_below="@id/agetx"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:text="邮箱"
+        android:layout_marginLeft="80dp"
+        />
+    <TextView
+        android:id="@+id/usertx5"
+        android:layout_below="@id/usertx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+
+        android:layout_toRightOf="@id/emailtx"
+        android:text=""
+        />
+</RelativeLayout>

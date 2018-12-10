@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <com.youth.banner.Banner
+
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+
+                <Button
+                    android:id="@+id/homepage_url_0"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/haodaifuw"
+                    android:paddingLeft="5dp" />
+
+                <Button
+                    android:id="@+id/homepage_url_1"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/pinanyi"
+                    android:paddingLeft="5dp" />
+
+                <Button
+                    android:id="@+id/homepage_url_2"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rencai"
+                    android:paddingLeft="5dp" />
+                <Button
+                    android:id="@+id/homepage_url_3"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/daohang"
+                    android:scaleType="centerCrop"
+                    android:paddingLeft="5dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:divider="@drawable/diver"
+        android:showDividers="middle"
+        >
+
+        <Button
+            android:id="@+id/homepage_url_4"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_weight="1"
+            android:background="@drawable/imgbtn1"
+            android:paddingLeft="10dp"
+            android:scaleType="centerCrop" />
+        <Button
+            android:id="@+id/homepage_url_5"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_weight="1"
+            android:background="@drawable/imgbtn2"
+            android:scaleType="centerCrop"
+            android:paddingLeft="3dp"
+           />
+
+
+    </LinearLayout>
+
+              <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_homepage_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+

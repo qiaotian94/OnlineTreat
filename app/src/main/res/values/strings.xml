@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">OnlineTreatApp</string>
+    <string name="homepage_name">首页</string>
+    <string name="dynamic_name">动态</string>
+    <string name="message_name">看病</string>
+
+    <string name="my_message">个人资料</string>
+    <string name="my_healthy">健康指数</string>
+    <string name="my_illness">我的症状</string>
+    <string name="record">我的收藏</string>
+    <string name="about_us">关于我们</string>
+    <string name="update">版本更新</string>
+
+    //登录
+    <string name="user_name">学号/手机号</string>
+    <string name="password_name">密码</string>
+    <string name="login_btn_name">登录</string>
+    <string name="forget_password_name">忘记密码？</string>
+    <string name="new_user_name">创建账号</string>
+
+    //注册
+    <string name="title_name">欢迎加入O·H·A</string>
+    <string name="littlet_name">找到好大夫</string>
+    <string name="newUser_name">请输入11位手机号</string>
+    <string name="pass_name">请输入6-12位字母或数字的密码</string>
+    <string name="pass2_name">确认密码</string>
+    <string name="logonbtn_name">注册</string>
+    <string name="about_name">点击以上按钮代表同意用户协议</string>
+    //首页
+    <string name="web1">好大夫网</string>
+    <string name="web2">平安医生</string>
+    <string name="web3">医疗人才</string>
+    <string name="web4">医学导航</string>
+    <string name="homepagebtn1">热门</string>
+    <string name="homepagebtn2">综合</string>
+    //药品
+    <string name="med1">感冒发烧</string>
+    <string name="med2">免疫功能</string>
+    <string name="med3">抗菌消炎</string>
+    <string name="med4">骨科用药</string>
+    <string name="med5">肠胃用药</string>
+    <string name="med6">补益安神</string>
+
+    //免疫功能
+    <string name="medicine1">硫酸氨基葡萄糖胶囊</string>
+    <string name="medicine2">双氯芬酸钾胶囊</string>
+    <string name="medicine3">醋酸泼尼松片</string>
+    <string name="medicine4">美洛昔康片</string>
+    <string name="medicine5">环孢素软胶囊</string>
+    <string name="medicine6">胸腔肽肠溶片</string>
+    //菜单
+    <string name="about_us_school">
+        "\n       郑州轻工业大学（Zhengzhou University of Light Industry），简称郑轻，坐落于河南省会郑州市，属河南省重点建设高校序列，是河南省人民政府与国家烟草专卖局共建高校，卓越工程师教育培养计划建设高校，河南省博士学位授予权立项建设高校。\n\n"
+        "       学校创建于1977年，原隶属国家轻工业部。1998年，转为中央和河南省共建，以地方管理为主。2011年成为河南省人民政府与国家烟草专卖局共建高校，同时成为卓越工程师教育培养计划建设高校，并入选教育部“长江学者和创新团队发展计划”。\n\n"
+        "       郑州轻工业大学是河南省最早开展中外合作办学项目的公立高等院校，拥有河南省最早设立的雅思考试中心，是中南地区一所以轻工、食品、烟草、电器、艺术、工业设计为特色的公立本科院校。\n\n"
+        "       据2018年1月学校官网显示，学校拥有17个学院、65个本科专业，有教职工1800余人，副高级职称以上教师600余人，拥有博士学位教师600余人。有在校生24000余人，其中全日制本专科生23000余人，各类在校硕士研究生1000余人。"</string>
+</resources>

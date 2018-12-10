@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--滑动用户界面Item设置-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/user_message"
+        android:icon="@drawable/myziliao"
+        android:title="@string/my_message"
+        />
+    <item
+        android:id="@+id/user_healthy"
+        android:icon="@drawable/jiankangzhishu"
+        android:title="修改密码"/>
+    <item
+        android:id="@+id/user_book"
+        android:icon="@drawable/zhengzhuang"
+        android:title="完善信息"/>
+    </group>
+
+
+    <item
+        android:icon="@drawable/set"
+        android:title="系统设置">
+        <menu>
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/aboutusa"
+            android:title="@string/about_us"/>
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/update"
+            android:title="@string/update"/>
+
+        </menu>
+     </item>
+
+</menu>

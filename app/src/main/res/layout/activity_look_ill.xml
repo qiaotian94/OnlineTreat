@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="40dp"
+        android:text="疾病记录"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/ill1"
+        android:layout_below="@id/toptext"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="最新病情"
+        />
+
+    <TextView
+        android:id="@+id/body1"
+        android:layout_below="@id/ill1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:paddingTop="30dp"
+        android:text=""
+        />
+
+</RelativeLayout>
